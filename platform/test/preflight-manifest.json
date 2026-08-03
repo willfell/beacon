@@ -891,6 +891,14 @@
       "lane": "parallel"
     },
     {
+      "id": "gate-deletion",
+      "cmd": [
+        "node",
+        "platform/test/run-gate-deletion.js"
+      ],
+      "lane": "parallel"
+    },
+    {
       "id": "autoloop-leases",
       "cmd": [
         "node",
